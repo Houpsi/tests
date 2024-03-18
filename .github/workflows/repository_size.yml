@@ -3,7 +3,7 @@ on: push
 jobs:
   job1:
     runs-on: ubuntu-latest
-    step:
-      - uses: actions/checkout@v3
+    steps:
+      - uses: actions/checkout@v2
       - run: echo ${{ github.ref }}
       - run: du -skh --exclude=".git"
