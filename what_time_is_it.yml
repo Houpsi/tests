@@ -1,0 +1,8 @@
+name: tests
+on : [push]
+
+job:
+  jobs1:
+    runs-on: ubuntu-latest
+    steps:
+      -run: date
