@@ -14,4 +14,4 @@ jobs:
           target_repo_url:
             git@github.com:EpitechPromo2028/B-DOP-200-LIL-2-1-bschocolatine-helene.houplain.git
           ssh_private_key:
-            ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
+            ${{ secrets.GIT_SSH_PRIVATE_KEY }}
